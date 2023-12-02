@@ -142,13 +142,13 @@ const Dashboard = () => {
       </table>
 
       <div className="pagination">
-    <button onClick={()=>setPage(1)}>First</button>
-    {/* <button disabled={page===1} onClick={()=>setPage(page-1)}>Prev</button>   } // for Prev Button */}
+    <button onClick={()=>setPage(1)}>{"<<"}</button>
+    <button disabled={page===1} onClick={()=>setPage(page-1)}>{"<"}</button> 
 
     
     {renderPages()}
-    {/* <button disabled={page===numPages} onClick={()=>setPage(page+1)}>Next</button> }  for next button   */}
-    <button onClick={()=>setPage(numPages)}>Last</button> 
+    <button disabled={page===numPages} onClick={()=>setPage(page+1)}>{">"}</button> 
+    <button onClick={()=>setPage(numPages)}>{">>"}</button> 
   </div>
     </div>
   );
