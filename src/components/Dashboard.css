@@ -1,0 +1,80 @@
+.dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .search-icon {
+    margin-right: 10px; 
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    border: 1px solid black;
+    width: 25%;
+  }
+  
+  .delete {
+    cursor: pointer;
+    color: #f56565;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  th {
+    background: #55608f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td { 
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .selected {
+    background: #eee; 
+  }
+  
+  .edit { 
+    cursor: pointer;
+    color: #e9c46a;
+  }
+  
+  .delete {
+    cursor: pointer; 
+    color: #e76f51;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background: #264653;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
